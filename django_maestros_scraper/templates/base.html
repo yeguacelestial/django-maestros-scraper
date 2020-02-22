@@ -24,34 +24,40 @@
         </div>
     </nav>
 
-    <h1 style="text-align: center;">¿A qué maestro quieres buscar?</h1>
-    <div class="row">
-        <div class="col s4"> <!--s4 is the size of the column-->
-            <!-- Promo content 1 goes here -->
-            <div class="center">
-                <i class="large material-icons" style="color: #ee6e73">flash_on</i>
-                <p>Una lista con una mejor interfaz</p>
-                <p class="light center">Busca a tu maestro aquí con una interfaz más bonis.</p>
+    <div class="container">
+        <h1 style="text-align: center;">¿A qué maestro quieres buscar?</h1>
+        <div class="row">
+            <div class="col s4"> <!--s4 is the size of the column-->
+                <!-- Promo content 1 goes here -->
+                <div class="center">
+                    <i class="large material-icons" style="color: #ee6e73">flash_on</i>
+                    <p>Una lista con una mejor interfaz</p>
+                    <p class="light center">Busca a tu maestro aquí con una interfaz más bonis.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col s4">
-            <!--Promo content 2 goes here-->
-            <div class="center">
-                <i class="large material-icons" style="color: orange">camera</i>
-                <p>Filtra tus busquedas</p>
-                <p class="light center">Funcionalidad basada en orden alfabético</p>
+            <div class="col s4">
+                <!--Promo content 2 goes here-->
+                <div class="center">
+                    <i class="large material-icons" style="color: orange">camera</i>
+                    <p>Filtra tus busquedas</p>
+                    <p class="light center">Funcionalidad basada en orden alfabético</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col s4">
-            <!--Promo content 3 goes here-->
-            <div class="center">
-                <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
-                <p>Un front-end muchísimo más sexy para la lista de maestros.</p>
-                <p class="light center">Hecho con ❤.</p>
+            <div class="col s4">
+                <!--Promo content 3 goes here-->
+                <div class="center">
+                    <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+                    <p>Un front-end muchísimo más sexy para la lista de maestros.</p>
+                    <p class="light center">Hecho con ❤.</p>
+                </div>
             </div>
-        </div>
+    </div>
+
+        {% block content %}
+        {% endblock content %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </div>
 
 </body>
