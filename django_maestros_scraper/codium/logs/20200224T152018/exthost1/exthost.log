@@ -1,0 +1,24 @@
+[2020-02-24 15:20:23.578] [exthost] [info] extension host started
+[2020-02-24 15:20:23.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-02-24 15:20:23.621] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-02-24 15:20:23.641] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-02-24 15:20:23.641] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/emmet/dist/extension
+[2020-02-24 15:20:23.695] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-02-24 15:20:23.695] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/git/dist/main
+[2020-02-24 15:20:23.851] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-02-24 15:20:23.851] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/merge-conflict/dist/extension
+[2020-02-24 15:20:23.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-02-24 15:20:23.866] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/search-result/dist/extension.js
+[2020-02-24 15:20:23.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-02-24 15:20:23.877] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/vscode-account/dist/extension.js
+[2020-02-24 15:20:23.896] [exthost] [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css {"startup":true,"extensionId":{"value":"be5invis.vscode-custom-css","_lower":"be5invis.vscode-custom-css"},"activationEvent":"*"}
+[2020-02-24 15:20:23.896] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-oss/extensions/be5invis.vscode-custom-css-3.0.9/src/extension
+[2020-02-24 15:20:23.948] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-02-24 15:20:23.948] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-02-24 15:20:28.022] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"extensionId":{"value":"vscode-icons-team.vscode-icons","_lower":"vscode-icons-team.vscode-icons"},"activationEvent":"*"}
+[2020-02-24 15:20:28.022] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-oss/extensions/vscode-icons-team.vscode-icons-10.0.0/dist/src/vscode-icons.bundle.js
+[2020-02-24 15:20:28.167] [exthost] [info] eager extensions activated
+[2020-02-24 15:20:41.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-02-24 15:20:41.121] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/python/dist/pythonMain
+[2020-02-24 15:20:41.124] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-02-24 15:20:41.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode-oss/extensions/ms-python.python-2020.2.64397/out/client/extension
