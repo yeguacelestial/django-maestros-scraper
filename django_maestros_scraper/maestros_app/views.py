@@ -17,6 +17,18 @@ def new_search(request):
     search = search.replace(' ', '-')
     final_url = BASE_LISTA_URL.format(search)
     
+    response = requests.get(final_url)
+    data = response.text
+
+    soup = BeautifulSoup(data, features='html.parser')
+    maestro_names = soup.find_all('td', {'class': 'results_left_td'})
+
+    # Nombre del maestro
+    print(maestro_names[1].a.text)
+
+    # Link del maestro (xD)
+    print(maestro_names[1].a.get('href'))
+    
     # print(search)
     # print(data)
     # print(final_url)
