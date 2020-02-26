@@ -46,8 +46,8 @@ def new_search(request):
 
         final_postings.append((maestro_name, maestro_link, chidos, gachos))
     
-    print(final_postings)
-
+    search = search.replace('-', ' ')
+    
     stuff_for_frontend = {
         'search': search,
         'final_postings': final_postings,
