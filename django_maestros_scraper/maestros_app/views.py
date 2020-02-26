@@ -21,19 +21,36 @@ def new_search(request):
     data = response.text
 
     soup = BeautifulSoup(data, features='html.parser')
-    maestro_names = soup.find_all('td', {'class': 'results_left_td'})
 
-    # Nombre del maestro
-    print(maestro_names[1].a.text)
-
-    # Link del maestro (xD)
-    print(maestro_names[1].a.get('href'))
+    # Maestros listing
+    maestros_list = soup.find_all('td', {'class': 'results_left_td'})
     
-    # print(search)
-    # print(data)
-    # print(final_url)
+    # # Nombre del maestro
+    # maestro_name = maestros_list[1].a.text
+    
+    # # Link del maestro
+    # maestro_link = maestros_list[1].a.get('href')
+    
+    # # Chidos y gachos
+    # chidos = maestros_list[1].find(class_="result_chido_score").text
+    # gachos = maestros_list[1].find(class_="result_gacho_score").text
+
+    # Final postings
+    final_postings = []
+
+    for maestro in maestros_list[1:]:
+        maestro_name = maestro.a.text
+        maestro_link = maestro.a.get('href')
+        chidos = maestro.find(class_="result_chido_score").text
+        gachos = maestro.find(class_="result_gacho_score").text
+
+        final_postings.append((maestro_name, maestro_link, chidos, gachos))
+    
+    print(final_postings)
+
     stuff_for_frontend = {
         'search': search,
+        'final_postings': final_postings,
         }
 
     return render(request, 'maestros_app/newsearch.html', stuff_for_frontend)
