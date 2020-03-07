@@ -45,6 +45,6 @@ testtools==2.3.0
 traceback2==1.4.0
 unittest2==1.1.0
 urllib3==1.25.8
-Werkzeug==0.9.6
+Werkzeug==0.15.3
 whitenoise==5.0.1
 WTForms==2.0.2
